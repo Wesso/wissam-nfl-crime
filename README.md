@@ -31,4 +31,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # SimpleSite - Exercise in Angular
 
-0. Create a GitHUB repository for solution 
+## 0. Create a GitHUB repository for solution
+
+## Step 1. Setup a new Angular site
+
+Set title to 'NFL Crime'
+
+```
+
+```
