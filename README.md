@@ -37,6 +37,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Set title to 'NFL Crime'
 
-```
+## Step 2 - Add external data services 
 
-```
+## Create the 3 services: Crimes, Players & Teams
+
+-> ng generate service crimes
+-> ng generate service players
+-> ng generate service teams
+
+
