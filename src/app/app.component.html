@@ -2,3 +2,22 @@
 <div style="text-align:center">
   <h1>{{ title }}!</h1>
 </div>
+
+<div>
+<h3>Top 10 Crimes</h3>
+
+<table style="border: 1px solid #eeeeee;">
+  <tbody>
+    <tr>
+      <th style="background-color: #eeeeee;">Category</th>
+      <th style="background-color: #eeeeee;">Arrest count</th>
+    </tr>
+    <tr><td colspan="2" height="20"></td></tr>
+    <tr *ngFor="let crime of crimes">
+      <td width="250">{{ crime.Category }}</td>
+      <td>{{ crime.arrest_count }}</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
