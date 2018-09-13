@@ -46,8 +46,10 @@ Set title to 'NFL Crime'
 -> ng generate service teams
 
 ### Remove default html from app.componet
- 
+
+### Get the Crimes functionality to run and shows top 10 Crimes from the nflarrest API (http://nflarrest.com/api/v1/crime)
+
 
 ```
-
+v
 ```
