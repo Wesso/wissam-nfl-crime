@@ -45,4 +45,9 @@ Set title to 'NFL Crime'
 -> ng generate service players
 -> ng generate service teams
 
+### Remove default html from app.componet
+ 
 
+```
+
+```
