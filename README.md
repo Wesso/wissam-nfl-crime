@@ -26,7 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## First commit test
+## First commit test 
 
 
 # SimpleSite - Exercise in Angular
@@ -58,6 +58,9 @@ Set title to 'NFL Crime'
 -> ng generate component crimes
 -> ng generate component players
 -> ng generate component teams
+
+
+# The Compiler could may be fail at first time because og the use of slice in the app.component.ts. Modify any .ts file by adding space to recompile again and it works !!! No time to fix the problem.
 
 ```
 
