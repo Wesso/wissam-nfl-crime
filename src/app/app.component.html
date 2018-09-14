@@ -5,7 +5,7 @@
 
 <div>
 
-  <h3>Top 10 Crimes</h3>
+  <h2 style="color: #FFAC59">Top 10 Crimes</h2>
 
   <table style="border: 1px solid #eeeeee;">
     <tbody>
@@ -23,9 +23,11 @@
 
 </div>
 
+<br>
+
 <div>
   
-  <h3>Top 10 Players for theft</h3>
+  <h2 style="color: #FFAC59">Top 10 Players for theft</h2>
 
   <table style="border: 1px solid #eeeeee;">
     <tbody>
@@ -37,6 +39,32 @@
       <tr *ngFor="let player of players">
         <td width="250">{{ player.Name }}</td>
         <td>{{ player.arrest_count }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<br>
+
+<div>
+  
+  <h2 style="color: #FFAC59">Top 10 Teams for theft</h2>
+
+  <table style="border: 1px solid #eeeeee;">
+    <tbody>
+      <tr>
+        <th style="background-color: #eeeeee;">Team</th>
+        <th style="background-color: #eeeeee;">Team name</th>
+        <th style="background-color: #eeeeee;">Team city</th>
+        <th style="background-color: #eeeeee;">Arrest count</th>
+      </tr>
+      <tr><td colspan="4" height="20"></td></tr>
+      <tr *ngFor="let team of teams">
+        <td width="250">{{ team.Team }}</td>
+        <td width="150">{{ team.Team_name }}</td>
+        <td width="150">{{ team.Team_city }}</td>
+        <td>{{ team.arrest_count }}</td>
       </tr>
     </tbody>
   </table>
