@@ -39,7 +39,7 @@ Set title to 'NFL Crime'
 
 ## Step 2 - Add external data services 
 
-## Create the 3 services: Crimes, Players & Teams
+### Create the 3 services: Crimes, Players & Teams
 
 -> ng generate service crimes
 -> ng generate service players
@@ -52,6 +52,12 @@ Set title to 'NFL Crime'
 ### Get the Players functionality to run and show top 10 Players for theft from the nflarrest API (http://nflarrest.com/api/v1/crime/topPlayers/Theft)
 
 ### Get the Teams functionality to run and show top 10 Teams for theft from the nflarrest API (http://nflarrest.com/api/v1/crime/topTeams/Theft)
+
+## Step 3 - Add components to show data from services
+
+-> ng generate component crimes
+-> ng generate component players
+-> ng generate component teams
 
 ```
 
