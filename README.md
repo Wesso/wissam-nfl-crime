@@ -47,9 +47,11 @@ Set title to 'NFL Crime'
 
 ### Remove default html from app.componet
 
-### Get the Crimes functionality to run and shows top 10 Crimes from the nflarrest API (http://nflarrest.com/api/v1/crime)
+### Get the Crimes functionality to run and show top 10 Crimes from the nflarrest API (http://nflarrest.com/api/v1/crime)
 
-### Get the Players functionality to run and shows top 10 Players for theft from the nflarrest API (http://nflarrest.com/api/v1/crime/topPlayers/Theft)
+### Get the Players functionality to run and show top 10 Players for theft from the nflarrest API (http://nflarrest.com/api/v1/crime/topPlayers/Theft)
+
+### Get the Teams functionality to run and show top 10 Teams for theft from the nflarrest API (http://nflarrest.com/api/v1/crime/topTeams/Theft)
 
 ```
 
