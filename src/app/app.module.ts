@@ -6,6 +6,7 @@ import { HttpClientModule }    from '@angular/common/http';
 
 import {CrimesService} from './crimes.service';
 import {PlayersService} from './players.service';
+import {TeamsService} from './teams.service';
  
 //import { AppRoutingModule }     from './app-routing.module';
 import { AppComponent } from './app.component';
