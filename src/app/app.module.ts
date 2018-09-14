@@ -10,16 +10,16 @@ import {TeamsService} from './teams.service';
  
 //import { AppRoutingModule }     from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CrimesComponent } from './crimes/crimes.component';
-import { PlayersComponent } from './players/players.component';
-import { TeamsComponent } from './teams/teams.component';
+//import { CrimesComponent } from './crimes/crimes.component';
+//import { PlayersComponent } from './players/players.component';
+//import { TeamsComponent } from './teams/teams.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    CrimesComponent,
-    PlayersComponent,
-    TeamsComponent
+    AppComponent//,
+    //CrimesComponent,
+    //PlayersComponent,
+    //TeamsComponent
   ],
   imports: [
     BrowserModule,
