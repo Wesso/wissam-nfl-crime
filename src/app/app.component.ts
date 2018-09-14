@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {CrimesService} from './crimes.service';
 import {PlayersService} from './players.service';
+import {TeamsService} from './teams.service';
 import { Observable, of } from 'rxjs';
 
 @Component({
@@ -13,13 +14,15 @@ export class AppComponent {
 
   public crimes;
   public players;
+  public teams;
  
-  constructor(private _crimesService: CrimesService, private _playersService: PlayersService) { }
+  constructor(private _crimesService: CrimesService, private _playersService: PlayersService, private _teamsService: TeamsService) { }
 
 
   ngOnInit() {
     this.getCrimes();
     this.getPlayers();
+    this.getTeams();
   }
 
   getCrimes(): void {
@@ -31,6 +34,12 @@ export class AppComponent {
     this._playersService.getPlayers()
     .subscribe(players => this.players = players.slice(0, 10));
   }
+
+  getTeams(): void {
+    this._teamsService.getTeams()
+    .subscribe(teams => this.teams = teams.slice(0, 10));
+  }
+  
 }
 
 
