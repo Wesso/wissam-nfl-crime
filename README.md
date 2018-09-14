@@ -49,7 +49,8 @@ Set title to 'NFL Crime'
 
 ### Get the Crimes functionality to run and shows top 10 Crimes from the nflarrest API (http://nflarrest.com/api/v1/crime)
 
+### Get the Players functionality to run and shows top 10 Players for theft from the nflarrest API (http://nflarrest.com/api/v1/crime/topPlayers/Theft)
 
 ```
-v
+
 ```
